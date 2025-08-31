@@ -3,6 +3,7 @@ uvicorn
 langchain
 openai
 python-dotenv
+langchain_openai
 pydantic
 faiss-cpu
 sentence-transformers
