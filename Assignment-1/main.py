@@ -63,5 +63,5 @@ async def learning_path_suggestions(req: LearningPathRequest):
     suggestions = await learning_path_service.suggest_path(req.background, req.goal, req.months)
     return {"learning_path": suggestions}
 
-if __name__ == '__main__':
-    uvicorn.run(app, host='0.0.0.0', port=8000)
+# if __name__ == '__main__':
+#     uvicorn.run(app, host='0.0.0.0', port=8000)
